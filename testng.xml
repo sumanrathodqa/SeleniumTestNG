@@ -1,0 +1,8 @@
+<suite name=" Test Suite">
+    <test name="Sanity">
+        <classes>
+            <class name="org.eggtimer.tests.Sanity">
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

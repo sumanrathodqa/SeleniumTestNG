@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=========== Browser session starting ===========]]>
+    </line>
+    <line>
+      <![CDATA[=========== Browser session ended ===========]]>
+    </line>
+  </reporter-output>
+  <suite name=" Test Suite" duration-ms="6452" started-at="2020-08-27T13:51:38 CEST" finished-at="2020-08-27T13:51:44 CEST">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="6452" started-at="2020-08-27T13:51:38 CEST" finished-at="2020-08-27T13:51:44 CEST">
+      <class name="org.eggtimer.tests.Sanity">
+        <test-method status="PASS" signature="chromeSetup()[pri:0, instance:org.eggtimer.tests.Sanity@31dc339b]" name="chromeSetup" is-config="true" duration-ms="3841" started-at="2020-08-27T13:51:38 CEST" finished-at="2020-08-27T13:51:42 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[=========== Browser session starting ===========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chromeSetup -->
+        <test-method status="PASS" signature="morningTimerTest()[pri:0, instance:org.eggtimer.tests.Sanity@31dc339b]" name="morningTimerTest" duration-ms="2418" started-at="2020-08-27T13:51:42 CEST" finished-at="2020-08-27T13:51:44 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- morningTimerTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.eggtimer.tests.Sanity@31dc339b]" name="teardown" is-config="true" duration-ms="169" started-at="2020-08-27T13:51:44 CEST" finished-at="2020-08-27T13:51:44 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[=========== Browser session ended ===========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.eggtimer.tests.Sanity -->
+    </test> <!-- Sanity -->
+  </suite> <!--  Test Suite -->
+</testng-results>
